@@ -1,0 +1,132 @@
+
+
+
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px){
+  
+    .container{
+        margin: auto;
+        width:20%;
+        align-items: center;
+        justify-content: center;
+        }
+    .home{
+            min-height: 600px;
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 0rem;
+    }
+    .home-img{
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            background-color: #98a7fc;
+            overflow: hidden;
+            margin-bottom: 2rem ;
+        }
+    .home-img{
+            object-fit: cover;
+            object-position: center;
+        }
+    .home-content{
+            position: relative;
+            width: 50%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    .navbar{
+        position: absolute;
+        top:0;
+        left: 0px;
+        width: auto;
+        height: 100vh;
+        background: var(--box-color);
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        padding: 50px 2px;
+    }
+    .heading{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: var(--heading-color);
+    text-align: center;
+    margin-bottom: 2rem;
+    }
+
+    .dot {
+        display: none;
+      }
+    
+
+      .next {
+        display: none;
+        right: -10px;
+        border-radius: 3px 0 0 3px;
+      }
+      .prev {
+        display: none;
+        left: -20px;
+        border-radius: 3px 0 0 3px;
+      }
+      
+      .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+      }
+
+      .about-text{
+        display: none;
+      }
+
+
+      .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+      }
+
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    display: none;
+  }
+  
+  * {
+    box-sizing: none;
+  }
+
+
+
+}
+
+@media only screen and (max-device-width: 480px) {
+    .navbar{
+        display: none;
+    }
+    
+    .about-text{
+        display: none;
+      }
+    .about-content{
+        display: flex;
+        grid-template-columns: repeat(2,1fr);
+        gap: 1.5rem;
+    }
+    
+      .next {
+        right: 10px;
+        border-radius: 3px 0 0 3px;
+      }
+      .prev {
+        left: 10px;
+        border-radius: 3px 0 0 3px;
+      }
+ }
+

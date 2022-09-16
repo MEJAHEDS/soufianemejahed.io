@@ -1,212 +1,292 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href = "css/style.css" >
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/slides.css" />
+        <link rel="stylesheet" href="css/responsive.css" />
+        <link rel="stylesheet" href="css/animationcssbird.css" />
+        <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+        <title>Mejahed soufiane</title>
+    </head>
+    <body>
+        <header>
+            <div class="nav container">
+                <ul class="navbar">
+                    <li><a href="#about" onclick="home()" class="nav-link">Home</a></li>
+                    <li><a href="#about" onclick="about()" class="nav-link">About</a></li>
+                    <li><a href="#" onclick="eduction()" class="nav-link">Education</a></li>
+                    <li><a href="#" onclick="experience()" class="nav-link">Experience</a></li>
+                    <li><a href="#" onclick="projects()" class="nav-link">Projects</a></li>
+                </ul>
+            </div>
+        </header>
 
-    <link href ='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel ='stylesheet'>
-    <title>Mejahed soufiane</title>
-</head>
-<body>
-    <header>
-        <div class="nav container ">
-           
-            <ul class="navbar ">
-               
-                <li><a href="#home" class="nav-link">About</a></li>
-               
-                <li><a href="#" class="nav-link">Experience</a></li>
-               
-                <li><a href="#" class="nav-link">Education</a></li>
-               
-                <li><a href="#" class="nav-link">Projects</a></li>
-            </ul>
-        </div>
-    </header>
-      
-
-       
-
-       <section>
-        <div class="slideshow-container">
-            <div class="mySlides fade">
-                <section class="home container" id="home">
-
-                    <div class="home-content">
-                        <div class="home-img">
-                            <img src="images/soufianemejahed.png" alt="">
-                        </div>  
-                        <div class="home-text">
-                            
-                            <h3>i'm <span class="color"> <h1>Soufiane</h1></span></h3>
-                            <p> 
-                             i'm student at <span class="color">epitech</span> marseille with strong passion to build web application.
-                             <br> here's a bit more about me    
-                            </p>
-        
-                            <div class="social">
-                                <a href="#"><i class='bx bxl-linkedin-square' ></i></a>
-                                <a href="#"><i class='bx bxl-github'></i></a>
-                                <a href="#"><i class='bx bxl-paypal'></i></a>
+        <section>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <section class="home container" id="home">
+                        <div class="home-content">
+                            <div class="home-img">
+                                <img src="images/soufianemejahed.png" alt="" />
+                            </div>
+                            <div class="home-text">
+                                <h3>
+                                    i'm <span class="color"> <h1>Soufiane</h1></span>
+                                </h3>
+                                <p>
+                                    i'm student Pre-MSc Pro IA & Big Data student  <span class="color">Epitech</span> marseille 
+                                     <br />
+                                    
+                                   
+                                    
+                                </p>
+                                <div class="social">
+                                    <a href="https://www.linkedin.com/in/soufiane-mejahed/" target="_blank" ><i class="bx bxl-linkedin-square"></i></a>
+                                    <a href="https://github.com/MEJAHEDS" target="_blank"><i class="bx bxl-github"></i></a>
+                                    <a href="https://paypale.me/mejaheds" target="_blank"><i class="bx bxl-paypal"></i></a>
+                                    <a href="https://paypale.me/mejaheds" target="_blank"><i class='bx bxs-phone'></i></a>
+                                    <a href="https://paypale.me/mejaheds" target="_blank"><i class="bx bxl-gmail"></i></a>
+                                   
+                                </div>
                             </div>
                         </div>
+                    </section>
+                    <div style="text-align: center;">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                        <span class="dot" onclick="currentSlide(5)"></span>
                     </div>
-        
-                </section>
-
-            </div>
-            
-            <div class="mySlides fade">
-                <section class="about container" id="about">
-                    <h2 class="heading">About</h2>
-                    <div class="about-content">
-                        <div class="about-data">
-                            <span>About me </span>
-                            <h2>Student comptuer science <br> at epitech in marseille at epitech in marseille </h2>
-                            <a href="Formulaires.docx" download="" class="btn">
-                                download cv
-                                <i class='bx bxs-download'></i>
-                            </a>
-            
-                        </div>
-                        <div class="about-text">
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores debitis quod totam officia saepe deserunt culpa tempore! Molestiae voluptate fugiat dicta delectus voluptas, laborum assumenda voluptatem facilis consequuntur veritatis neque. </p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, soluta. Nemo aut sit a eos corrupti nobis placeat, labore perferendis quibusdam repudiandae accusamus est quaerat suscipit aspernatur ipsam odit pariatur!</p>
-                        </div>
-                    </div>
-                    
-                   </section>
-            
                 </div>
-          
-            <div class="mySlides fade">
-                <section class="about container" id="about">
-                    <h2 class="heading">Education</h2>
-                    <div class="home-conten">
-                        <table>
+
+                <div class="mySlides fade">
+                    <section class="about container" id="About">
+                        <h2 class="heading">About</h2>
+                        <div class="about-content">
+                            <div class="about-data">
+                                <span>About me </span>
+                                <h2>
+                                    Student comptuer science <br />
+                                    Pre-MSc Pro IA & Big Data student at EPITECH
+                                </h2>
+                                <a href="documents/CV_SOUFIANEMEJAHED.pdf" download  target="_blank" class="btn">
+                                    download cv
+                                    <i class="bx bxs-download"></i>
+                                </a>
+                            </div>
+                            <div class="about-text">
+                                <p>
+                                    Hello I am <h4>Mejahed soufiane </h4>Holder of a DUT in statistics and business intelligence and a professional degree in computer science: design, development and testing of software.                                </p>
+                                
+                            </div>
+                        </div>
+                    </section>
+                    <div style="text-align: center;">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                        <span class="dot" onclick="currentSlide(5)"></span>
+                    </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <section class="about container" id="Eduction">
+                        <h2 class="heading">Education</h2>
+                        <div class="home-conten">
+                            <table>
+                                <tr>
+                                    <th>institute</th>
+                                    <th>place</th>
+                                    <th>degree</th>
+                                </tr>
+                                <tr>
+                                    <td>Epitech</td>
+                                    <td>Marseille</td>
+                                    <td>IT engineer</td>
+                                </tr>
+                                <tr>
+                                    <td>Aix Marseille</td>
+                                    <td>Marseille</td>
+                                    <td>Bacheloree</td>
+                                </tr>
+                                <tr>
+                                    <td>Technology High School</td>
+                                    <td>Morroco</td>
+                                    <td>D.U.T</td>
+                                </tr>
+                                <tr>
+                                    <td>Hiegh school</td>
+                                    <td>Morroco</td>
+                                    <td>baccalaureate</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <div style="text-align: center;">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                        <span class="dot" onclick="currentSlide(5)"></span>
+                    </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <section class="about container" id="Experience">
+                        <h2 class="heading">Experience</h2>
+                        <div class="about-content">
+                            <div class="home-content">
+                                <table>
+                                    <tr>
+                                        <th>Stagiaire Développeur web</th>
+                                    
+                                    </tr>
+                                    <tr>
+                                        <td><h4>jana concierge</h4></td>
+                                        
+                                       
+                                       
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <li>Implémentation de framework CRUD
+                                                pour une application MVC.</li>
+                                            <li>
+                                                Création des validations au niveau
+                                                Model-Développement des Controllers
+                                                et les Routes associés.
+                                            </li>
+                                            <li>
+                                                Conception de la base de données
+                                            </li>
+                                            <li>
+                                                Technologies : Ruby on Rails,
+                                    HTML/CSS/JS, PostgreSQL,Boostrap,Git
+                                            </li>
+                                           </ul>
+                                        </td>
+                                        
+                                       
+                                    </tr>
+                                    
+                                   
+                                </table>
+                            </div>
                             
-                            <tr>
-                              <th>institute</th>
-                              <th>place</th>
-                              <th>degree</th>
-                            </tr>
-                            <tr>
-                              <td>Epitech</td>
-                              <td>Marseille</td>
-                              <td>IT engineer</td>
-                            </tr>
-                            <tr>
-                                <td>Aix Marseille</td>
-                                <td>Marseille</td>
-                                <td>Bacheloree</td>
-                              </tr>
-                            <tr>
-                              <td>Technology High School </td>
-                              <td>Morroco</td>
-                              <td>D.U.T</td>
-                            </tr>
-                            <tr>
-                                <td>Hiegh school </td>
-                                <td>Morroco</td>
-                                <td>baccalaureate</td>
-                              </tr>
-                          </table>
-                    </div>
-                    
-                   </section>
-            
-            </div>
-          
-            <div class="mySlides fade">
-                <section class="about container" id="about">
-                    <h2 class="heading">Experience</h2>
-                    <div class="about-content">
-                        <div class="about-data">
-                            <span>About me </span>
-                            <h2>Student comptuer science <br> at epitech in marseille at epitech in marseille </h2>
-                            <a href="Formulaires.docx" download="" class="btn">
-                                download cv
-                                <i class='bx bxs-download'></i>
-                            </a>
-            
                         </div>
-                        <div class="about-text">
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores debitis quod totam officia saepe deserunt culpa tempore! Molestiae voluptate fugiat dicta delectus voluptas, laborum assumenda voluptatem facilis consequuntur veritatis neque. </p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, soluta. Nemo aut sit a eos corrupti nobis placeat, labore perferendis quibusdam repudiandae accusamus est quaerat suscipit aspernatur ipsam odit pariatur!</p>
-                        </div>
-                    </div>
-                    
-                   </section>
-            
-            </div>
-
-            <div class="mySlides fade">
-                <section class="about container" id="about">
-                    <h2 class="heading">Projects</h2>
-                    <div class="about-content">
-                        <img src="data:image/png;base64,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" alt="" class="projet">
-                        <img src="data:image/png;base64,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" alt="" class="projet">
-                        <img src="" alt="" class="projet">
-                        <img src="" alt="" class="projet">
-                        <img src="" alt="" class="projet">
-                        <img src="" alt="" class="projet">
                         
+                    </section>
+                    <div style="text-align: center;">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                        <span class="dot" onclick="currentSlide(5)"></span>
                     </div>
-                    
-                   </section>
-            
+                </div>
+
+                <div class="mySlides fade">
+                    <section class="about container" id="about4">
+                        <div style="text-align: center;">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                            <span class="dot" onclick="currentSlide(4)"></span>
+                            <span class="dot" onclick="currentSlide(5)"></span>
+                        </div>
+                        <h2 class="heading">Projects</h2>
+                      
+                        <div class="responsive">
+                            <div class="gallery">
+                                <a target="_blank" href="img_forest.jpg">
+                                    <img src="https://fakeimg.pl/300/" alt="Mountains" width="600" height="400" />
+                                </a>
+                                <div class="desc">Projet 1</div>
+                            </div>
+                        </div>
+                        <div class="responsive">
+                            <div class="gallery">
+                                <a target="_blank" href="img_forest.jpg">
+                                    <img src="https://fakeimg.pl/300/" alt="Mountains" width="600" height="400" />
+                                </a>
+                                <div class="desc">Projet 2</div>
+                            </div>
+                        </div>
+
+                        <div class="responsive">
+                            <div class="gallery">
+                                <a target="_blank" href="img_lights.jpg">
+                                    <img src="https://fakeimg.pl/300/" alt="Mountains" width="600" height="400" />
+                                </a>
+                                <div class="desc">Projet 3</div>
+                            </div>
+                        </div>
+
+                        <div class="responsive">
+                            <div class="gallery">
+                                <a target="_blank" href="img_mountains.jpg">
+<img src="https://fakeimg.pl/300/" alt="Mountains" width="600" height="400" />                                </a>
+                                <div class="desc">Projet 4</div>
+                            </div>
+                        </div>
+                        <div class="responsive">
+                            <div class="gallery">
+                                <a target="_blank" href="img_mountains.jpg">
+<img src="https://fakeimg.pl/300/" alt="Mountains" width="600" height="400" />                                </a>
+                                <div class="desc">Projet 5</div>
+                            </div>
+                        </div>
+                        <div class="responsive">
+                            <div class="gallery">
+                                <a target="_blank" href="img_mountains.jpg">
+<img src="https://fakeimg.pl/300/" alt="Mountains" width="600" height="400" />                                </a>
+                                <div class="desc">Projet 6</div>
+                            </div>
+                        </div>
+                        <div class="responsive">
+                            <div class="gallery">
+                                <a target="_blank" href="img_mountains.jpg">
+<img src="https://fakeimg.pl/300/" alt="Mountains" width="600" height="400" />                                </a>
+                                <div class="desc">Projet 7</div>
+                            </div>
+                        </div>
+                        <div class="responsive">
+                            <div class="gallery">
+                                <a target="_blank" href="img_mountains.jpg">
+                                    <img src="https://fakeimg.pl/300/" alt="Mountains" width="600" height="400" />
+                                </a>
+                                <div class="desc">Projet 8</div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
-          
-            <!-- Next and previous buttons -->
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-          </div>
-          <br>
-          
-          <!-- The dots/circles -->
-          <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-            
-          </div>
-       </section>
-
-   
-</body>
+        </section>
+        <div class="container">
+            <div class="bird-container bird-container--one">
+                <div class="bird bird--one"></div>
+            </div>
+        
+            <div class="bird-container bird-container--two">
+                <div class="bird bird--two"></div>
+            </div>
+        
+            <div class="bird-container bird-container--three">
+                <div class="bird bird--three"></div>
+            </div>
+        
+            <div class="bird-container bird-container--four">
+                <div class="bird bird--four"></div>
+            </div>
+        </div>
+    </body>
 </html>
-
-<script>
-
-let slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
-</script>
+<script src="js/script.js"></script>
